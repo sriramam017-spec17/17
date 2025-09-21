@@ -1,0 +1,183 @@
+/* General */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f4f7f9, #dce6f1);
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #34495e;
+    padding: 0.8rem 2rem;
+    color: white;
+}
+
+.nav-left a,
+.nav-right a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-left a:hover,
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+.nav-left .button-link {
+    background: #e67e22;
+    padding: 0.4rem 0.9rem;
+    border-radius: 20px;
+}
+
+.nav-left .button-link:hover {
+    background: #d35400;
+}
+
+
+/* Hero Section */
+
+#home {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(to right, #2980b9, #6dd5fa);
+    color: white;
+}
+
+#home button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    background: white;
+    color: #2980b9;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#home button:hover {
+    background: #e1e1e1;
+}
+
+
+/* Form Section */
+
+#form {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 450px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 0.6rem;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 0.7rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    background: #2980b9;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #1f5c8a;
+}
+
+
+/* Results Section */
+
+#results {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.career-card {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.career-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Settings Section */
+
+#settings {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #ecf0f1;
+    margin-top: 2rem;
+    border-radius: 12px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Footer */
+
+footer {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

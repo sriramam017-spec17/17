@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career & Skill Adviser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Career & Skill Adviser</h1>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="https://www.code-titans.com" target="_blank" class="button-link">Code Titans</a>
+                <a href="#home">Home</a>
+                <a href="#settings">Settings</a>
+            </div>
+            <div class="nav-right">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.code-titans.com" target="_blank">Facebook</a>
+                <a href="https://api.whatsapp.com/send?text=Check%20out%20this%20Career%20Adviser%20Website!%20https://www.code-titans.com" target="_blank">WhatsApp</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Find Your Perfect Career!</h2>
+        <p>Answer a few questions and get personalized career suggestions.</p>
+        <button onclick="scrollToForm()">Start Assessment</button>
+    </section>
+
+    <section id="form">
+        <h2>Tell Us About Yourself</h2>
+        <form id="careerForm">
+            <input type="text" id="interests" placeholder="Your Interests (e.g., Coding, Design)" required>
+            <input type="text" id="skills" placeholder="Your Skills (e.g., Python, Communication)" required>
+            <input type="text" id="industry" placeholder="Preferred Industry (e.g., IT, Finance)" required>
+            <button type="submit">Get Career Advice</button>
+        </form>
+    </section>
+
+    <section id="results">
+        <h2>Your Suggested Careers</h2>
+        <div id="advice"></div>
+    </section>
+
+    <section id="settings">
+        <h2>Settings</h2>
+        <p>Customize your experience here (e.g., theme, preferred industries).</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Career Adviser | Visit <a href="https://www.code-titans.com" target="_blank">Code Titans</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
